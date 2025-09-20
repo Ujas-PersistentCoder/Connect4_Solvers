@@ -39,7 +39,7 @@ You must have a C compiler like **GCC** installed on your system. You can check 
 ```sh
 gcc --version
 ```
-###**Compilation**
+### Compilation
 Clone the repository and navigate into the directory.
 
 Compile the desired AI program using one of the following commands:
@@ -54,7 +54,7 @@ To compile the Memoization Solver version:
 gcc -o memo_player memoization_solver.c
 ```
 
-###**Running the Game**
+### Running the Game
 Run the compiled program from your terminal:
 ```sh
 ./minimax_player
@@ -71,7 +71,7 @@ Enter your move in the format R n, where n is the column number (e.g., R 2).
 
 Continue playing until a winner is declared or the game is a draw.
 
-Customization and Debugging
+## Customization and Debugging
 Changing the Board Size
 You can easily change the game dimensions in either C file by modifying the global constants at the top of the code:
 
@@ -83,7 +83,7 @@ You can easily change the game dimensions in either C file by modifying the glob
 ```
 Note: Changing the board size may impact the AI's ability to play perfectly, as the game may no longer be "solved" within a practical search depth. The check_win function is hardcoded for a win condition of 4 in a row. But you can play with it, change the depth and see what happens.
 
-Debugging with print_board
+### Debugging with print_board
 Each C file contains a print_board() function. You can call this function at any point (e.g., within the main loop or inside the AI functions) to print the current state of the board to the console for debugging purposes, or for ease of playing.
 
 ```c

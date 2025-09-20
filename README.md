@@ -39,7 +39,7 @@ You must have a C compiler like **GCC** installed on your system. You can check 
 ```sh
 gcc --version
 ```
-**###Compilation**
+###**Compilation**
 Clone the repository and navigate into the directory.
 
 Compile the desired AI program using one of the following commands:
@@ -54,7 +54,7 @@ To compile the Memoization Solver version:
 gcc -o memo_player memoization_solver.c
 ```
 
-**###Running the Game**
+###**Running the Game**
 Run the compiled program from your terminal:
 ```sh
 ./minimax_player
